@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
@@ -6,6 +6,7 @@
   <title>Azeddine — Développeur Web</title>
   <meta name="description" content="Portfolio d'Azeddine, développeur web PHP/MySQL/JavaScript basé à Casablanca, Maroc." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
 
@@ -26,7 +27,7 @@
     </nav>
 
     <a class="nav-btn" href="#contact">Me contacter</a>
-    <button class="burger" id="burgerBtn" aria-label="Menu" aria-expanded="false">☰</button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
   </div>
 
   <!-- Mobile menu -->
@@ -44,7 +45,7 @@
   <!-- ── HERO ───────────────────────────────────────────── -->
   <section id="accueil" class="hero">
     <div class="hero-text">
-      <div class="hero-badge">Disponible pour des projets</div>
+      <div class="hero-badge"><i class="fa-solid fa-circle-check"></i> Disponible pour des projets</div>
 
       <h1>
         Bonjour, je suis<br>
@@ -62,13 +63,13 @@
 
       <div class="btns">
         <a class="btn btn-primary" href="#projets">
-          ⚡ Voir mes projets
+          <i class="fa-solid fa-bolt"></i> Voir mes projets
         </a>
         <a class="btn btn-outline" href="#contact">
-          ✉ Me contacter
+          <i class="fa-solid fa-envelope"></i> Me contacter
         </a>
         <a class="btn btn-ghost" href="https://github.com/USERNAME" target="_blank" rel="noreferrer">
-          ⌥ GitHub
+          <i class="fa-brands fa-github"></i> GitHub
         </a>
       </div>
 
@@ -98,7 +99,7 @@
         </div>
 
         <div class="float-badge b2">
-          🇲🇦 Casablanca
+          <i class="fa-solid fa-location-dot" style="color:#06b6d4"></i> Casablanca
         </div>
       </div>
     </div>
@@ -116,7 +117,7 @@
 
     <div class="skills-grid">
       <div class="skill-card reveal">
-        <div class="skill-icon">🎨</div>
+        <div class="skill-icon"><i class="fa-solid fa-palette"></i></div>
         <h3>Frontend</h3>
         <div class="tags">
           <span>HTML5</span>
@@ -127,7 +128,7 @@
       </div>
 
       <div class="skill-card reveal">
-        <div class="skill-icon">⚙️</div>
+        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
         <h3>Backend</h3>
         <div class="tags">
           <span>PHP</span>
@@ -149,7 +150,7 @@
       </div>
 
       <div class="skill-card reveal">
-        <div class="skill-icon">🤝</div>
+        <div class="skill-icon"><i class="fa-solid fa-people-group"></i></div>
         <h3>Soft Skills</h3>
         <ul class="list">
           <li>Travail en équipe</li>
@@ -175,9 +176,9 @@
 
       <div class="project-card reveal">
         <div class="project-top">
-          <div class="project-icon">⚽</div>
+          <div class="project-icon"><i class="fa-solid fa-futbol"></i></div>
           <div class="project-actions">
-            <a class="action-btn" href="#" target="_blank" rel="noreferrer">↗ GitHub</a>
+            <a class="action-btn" href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
           </div>
         </div>
         <h3>KoraNow</h3>
@@ -189,9 +190,9 @@
 
       <div class="project-card reveal">
         <div class="project-top">
-          <div class="project-icon">📅</div>
+          <div class="project-icon"><i class="fa-solid fa-calendar-days"></i></div>
           <div class="project-actions">
-            <a class="action-btn" href="#" target="_blank" rel="noreferrer">↗ GitHub</a>
+            <a class="action-btn" href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
           </div>
         </div>
         <h3>Terrain Booking</h3>
@@ -203,9 +204,9 @@
 
       <div class="project-card reveal">
         <div class="project-top">
-          <div class="project-icon">🌐</div>
+          <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
           <div class="project-actions">
-            <a class="action-btn" href="#" target="_blank" rel="noreferrer">↗ Code</a>
+            <a class="action-btn" href="#" target="_blank" rel="noreferrer"><i class="fa-solid fa-code"></i> Code</a>
           </div>
         </div>
         <h3>Portfolio</h3>
@@ -217,9 +218,9 @@
 
       <div class="project-card reveal">
         <div class="project-top">
-          <div class="project-icon">💡</div>
+          <div class="project-icon"><i class="fa-solid fa-lightbulb"></i></div>
           <div class="project-actions">
-            <a class="action-btn" href="#" target="_blank" rel="noreferrer">↗ GitHub</a>
+            <a class="action-btn" href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
           </div>
         </div>
         <h3>Mini Projet</h3>
@@ -245,7 +246,7 @@
     <div class="timeline">
 
       <div class="timeline-item reveal">
-        <div class="timeline-dot">🎓</div>
+        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
         <div class="timeline-content">
           <div class="timeline-meta">
             <span class="timeline-year">2024</span>
@@ -257,7 +258,7 @@
       </div>
 
       <div class="timeline-item reveal">
-        <div class="timeline-dot">💻</div>
+        <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
         <div class="timeline-content">
           <div class="timeline-meta">
             <span class="timeline-year">1 an</span>
@@ -286,7 +287,7 @@
 
     <div class="contact-grid reveal">
       <div class="contact-card">
-        <div class="contact-icon">✉️</div>
+        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
         <div>
           <h3>Email</h3>
           <a href="mailto:truckazeddine@gmail.com">truckazeddine@gmail.com</a>
@@ -294,7 +295,7 @@
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">🐙</div>
+        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
         <div>
           <h3>GitHub</h3>
           <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer">github.com/USERNAME</a>
@@ -302,7 +303,7 @@
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">💼</div>
+        <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
         <div>
           <h3>LinkedIn</h3>
           <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noreferrer">linkedin.com/in/USERNAME</a>
@@ -310,7 +311,7 @@
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">📍</div>
+        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
         <div>
           <h3>Localisation</h3>
           <a href="#">Casablanca, Maroc 🇲🇦</a>
@@ -319,10 +320,10 @@
     </div>
 
     <div class="cta-banner reveal">
-      <h3>Travaillons ensemble 🚀</h3>
+      <h3>Travaillons ensemble <i class="fa-solid fa-rocket"></i></h3>
       <p>Un projet en tête ? Je suis disponible et motivé pour collaborer.</p>
       <a class="btn btn-primary" href="mailto:truckazeddine@gmail.com">
-        ✉ Envoyer un email
+        <i class="fa-solid fa-paper-plane"></i> Envoyer un email
       </a>
     </div>
   </section>
