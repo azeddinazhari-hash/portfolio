@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
@@ -68,7 +68,7 @@
         <a class="btn btn-outline" href="#contact">
           <i class="fa-solid fa-envelope"></i> Me contacter
         </a>
-        <a class="btn btn-ghost" href="https://github.com/USERNAME" target="_blank" rel="noreferrer">
+        <a class="btn btn-ghost" href="https://github.com/azeddinazhari-hash" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-github"></i> GitHub
         </a>
       </div>
@@ -158,6 +158,17 @@
           <li>Sérieux &amp; ponctuel</li>
           <li>Apprentissage rapide</li>
         </ul>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-microchip"></i></div>
+        <h3>IoT & Embarqué</h3>
+        <div class="tags">
+          <span>Arduino</span>
+          <span>Raspberry Pi</span>
+          <span>Capteurs</span>
+          <span>Systèmes Embarqués</span>
+        </div>
       </div>
     </div>
   </section>
@@ -272,6 +283,21 @@
         </div>
       </div>
 
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"><i class="fa-solid fa-microchip"></i></div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="timeline-year">2024 - Présent</span>
+            <span class="timeline-place">Victoria Professionnel Institut</span>
+          </div>
+          <h3>Formation en IoT (Internet des Objets)</h3>
+          <p>
+            Étude des systèmes embarqués, capteurs et protocoles de communication connectés.
+            Développement de solutions intelligentes alliant matériel et logiciel.
+          </p>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -298,7 +324,7 @@
         <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
         <div>
           <h3>GitHub</h3>
-          <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer">github.com/USERNAME</a>
+          <a href="https://github.com/azeddinazhari-hash" target="_blank" rel="noreferrer">github.com/azeddinazhari-hash</a>
         </div>
       </div>
 
@@ -306,7 +332,15 @@
         <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
         <div>
           <h3>LinkedIn</h3>
-          <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noreferrer">linkedin.com/in/USERNAME</a>
+          <a href="https://www.linkedin.com/in/azeddine-azhari-0a40173a0" target="_blank" rel="noreferrer">linkedin.com/in/azeddine-azhari</a>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+        <div>
+          <h3>Téléphone</h3>
+          <a href="tel:+212702372887">07 02 37 28 87</a>
         </div>
       </div>
 
@@ -336,8 +370,8 @@
     <span class="footer-logo">AZ.</span>
     <span class="footer-copy">© <span id="year"></span> Azeddine — Built with PHP / HTML / CSS / JS</span>
     <div class="footer-links">
-      <a href="https://github.com/USERNAME" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="https://linkedin.com/in/USERNAME" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com/azeddinazhari-hash" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/azeddine-azhari-0a40173a0" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
   </div>
 </footer>
