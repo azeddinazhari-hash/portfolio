@@ -200,6 +200,20 @@
 
       <div class="project-card reveal">
         <div class="project-top">
+          <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="project-actions">
+            <a class="action-btn" href="https://github.com/azeddinazhari-hash" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <h3>Finance Dashboard</h3>
+        <p>Système de gestion financière permettant de suivre les revenus et les dépenses avec des statistiques détaillées et un tableau de bord intuitif.</p>
+        <div class="tags">
+          <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
           <div class="project-icon"><i class="fa-solid fa-futbol"></i></div>
           <div class="project-actions">
             <a class="action-btn" href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
