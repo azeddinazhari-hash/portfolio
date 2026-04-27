@@ -184,6 +184,19 @@
     </div>
 
     <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="project-actions">
+            <a class="action-btn" href="https://github.com/azeddinazhari-hash" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <h3>EspaceRDV</h3>
+        <p>Plateforme de gestion de rendez-vous en ligne avec calendrier interactif, gestion des clients et notifications automatiques.</p>
+        <div class="tags">
+          <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+        </div>
+      </div>
 
       <div class="project-card reveal">
         <div class="project-top">
